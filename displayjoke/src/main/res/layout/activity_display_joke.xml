@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.displayjoke.DisplayJokeActivity">
+    <TextView
+        android:id="@+id/tv_joke"
+        android:textSize="16sp"
+        style="@style/textStyle"/>
+
+    <TextView
+        android:id="@+id/tv_joke_label"
+        android:text="@string/laugh"
+        android:textSize="24sp"
+        style="@style/textStyle"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintTop_toBottomOf="@id/tv_joke" />
+
+    <Button
+        android:id="@+id/bt_back"
+        android:text="@string/back"
+        style="@style/textStyle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_joke_label"
+        android:onClick="goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DisplayJoke</string>
+    <string name="joke">joke</string>
+    <string name="laugh">HA HA HA :)</string>
+    <string name="back">BACK</string>
+    <string name="error">Oops! No jokes found. Pls contact support.</string>
+</resources>
